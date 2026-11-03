@@ -1,0 +1,75 @@
+/* ---------- Auth screen ---------- */
+.auth-container {
+  max-width: 350px;
+  margin: 50px auto;
+  font-family: sans-serif;
+}
+
+.auth-error {
+  color: red;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-submit-btn {
+  padding: 8px;
+}
+
+.auth-toggle-text {
+  margin-top: 15px;
+}
+
+.auth-toggle-btn {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ---------- Dashboard screen ---------- */
+.dashboard-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 0 20px;
+  font-family: sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-item {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.job-item button {
+  margin-right: 5px;
+}
