@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5000/api/jobs";
+const BASE_URL = `${import.meta.env.VITE_API_URL}/api/jobs`;
+//const BASE_URL = "http://localhost:5000/api/jobs";
 
 export const getJobs = async () => {
   const token = localStorage.getItem("token");
